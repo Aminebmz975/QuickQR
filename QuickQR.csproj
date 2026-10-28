@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    
+    <!-- Informations de l'application -->
+    <AssemblyName>QuickQR</AssemblyName>
+    <RootNamespace>QuickQR</RootNamespace>
+    <ApplicationTitle>QuickQR</ApplicationTitle>
+    <Version>1.0.0</Version>
+    <Company>Antigravity</Company>
+    <Product>QuickQR</Product>
+    <ApplicationIcon>QuickQR.ico</ApplicationIcon>
+
+    <!-- Publication en binaire unique autonome -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="QuickQR.ico" />
+    <None Include="QuickQR.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+  </ItemGroup>
+
+</Project>

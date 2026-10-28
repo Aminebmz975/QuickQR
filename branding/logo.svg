@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="56" fill="#0F172A"/>
+
+  <!-- Châssis du smartphone moderne épuré -->
+  <rect x="56" y="32" width="144" height="192" rx="28" fill="url(#phoneGrad)" stroke="#475569" stroke-width="6"/>
+
+  <!-- Écran du smartphone avec fond blanc pur (Lien direct vers la lisibilité du QR) -->
+  <rect x="70" y="46" width="116" height="152" rx="18" fill="#FFFFFF"/>
+
+  <!-- Encoche / Caméra smartphone discrète -->
+  <rect x="116" y="52" width="24" height="6" rx="3" fill="#0F172A"/>
+
+  <!-- QR Code parfaitement cadré sur l'écran du smartphone -->
+  <!-- Coin haut gauche -->
+  <rect x="84" y="74" width="34" height="34" rx="6" fill="#0F172A"/>
+  <rect x="91" y="81" width="20" height="20" rx="3" fill="#FFFFFF"/>
+  <rect x="96" y="86" width="10" height="10" rx="2" fill="#10B981"/>
+
+  <!-- Coin haut droit -->
+  <rect x="138" y="74" width="34" height="34" rx="6" fill="#0F172A"/>
+  <rect x="145" y="81" width="20" height="20" rx="3" fill="#FFFFFF"/>
+  <rect x="150" y="86" width="10" height="10" rx="2" fill="#10B981"/>
+
+  <!-- Coin bas gauche -->
+  <rect x="84" y="128" width="34" height="34" rx="6" fill="#0F172A"/>
+  <rect x="91" y="135" width="20" height="20" rx="3" fill="#FFFFFF"/>
+  <rect x="96" y="140" width="10" height="10" rx="2" fill="#10B981"/>
+
+  <!-- Ligne de scan laser verte qui traverse l'écran -->
+  <line x1="70" y1="118" x2="186" y2="118" stroke="#10B981" stroke-width="4" stroke-linecap="round"/>
+</svg>

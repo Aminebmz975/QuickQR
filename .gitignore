@@ -1,0 +1,25 @@
+# Build Results
+[Bb]in/
+[Oo]bj/
+publish/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs & Temporary files
+*.log
+crash.log
+app.log
+screen.png
+dist/
+
+# OS Generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
